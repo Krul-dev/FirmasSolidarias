@@ -1,4 +1,4 @@
-# Source/firmas_digitales/__init__.py
+# Source/azure_functions/__init__.py
 
 
 # This file is required to make Python treat the directories as containing packages;
