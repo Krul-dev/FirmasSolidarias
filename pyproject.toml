@@ -1,0 +1,54 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0", "wheel"] 
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Morfosis"
+version = "0.1.0"
+description = "Morfosis es una plataforma para la gestión segura de documentos de la organización a través de firmas digitales y otras herramientas criptográficas. Se ejecuta principalmmente a través de Microsoft Power Apps, apoyada de otras herramientas como Azure SQL, Azure Functions, Blob Storage y Power Automate."
+readme = "README.md"
+requires-python = ">=3.9" 
+license = "GPL-3.0-or-later"
+keywords = ["digital signature", "cryptography", "power apps", "azure"]
+authors = [
+  { name = "Raúl Correa Ocañas", email = "A01722401@tec.mx" },
+  { name = "Julio Avelino Amador Fernández", email = "A01276513@tec.mx" },
+  { name = "Juan José de Jesús Hernández Beltrán", email = "A00836747@tec.mx" },
+  { name = "Mateo Zepeda Pérez", email = "A01722398@tec.mx" },
+  { name = "Kevin Jesús Martínez Trinidad", email = "A00834493@tec.mx" }
+]
+dependencies = [
+  "azure-functions",
+  "cryptography",
+  "pyhanko[opentype,image-support]",
+  "azure-storage-blob",
+  "requests",
+  "qrcode",
+  "pyodbc",
+  "PyPDF2",
+  "python-dotenv"
+]
+classifiers = [ 
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Office/Business",
+]
+
+[project.urls] 
+"Source Code" = "https://github.com/JuanjoBelt/MA2006B-CryptographyForHumanRights/"
+
+[project.scripts]
+ca_init = "firmas_digitales.utils.ca_init:main"
+
+
+[tool.setuptools]
+package-dir = {"" = "Source"}
+
+[tool.setuptools.packages.find]
+where = ["Source"]

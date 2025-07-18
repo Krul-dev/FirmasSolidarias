@@ -1,0 +1,9 @@
+azure-functions
+cryptography
+pyhanko[image-support,opentype]
+azure-storage-blob
+requests
+qrcode
+pyodbc
+PyPDF2
+python-dotenv

@@ -1,0 +1,50 @@
+Metadata-Version: 2.4
+Name: Morfosis
+Version: 0.1.0
+Summary: Morfosis es una plataforma para la gestión segura de documentos de la organización a través de firmas digitales y otras herramientas criptográficas. Se ejecuta principalmmente a través de Microsoft Power Apps, apoyada de otras herramientas como Azure SQL, Azure Functions, Blob Storage y Power Automate.
+Author-email: Raúl Correa Ocañas <A01722401@tec.mx>, Julio Avelino Amador Fernández <A01276513@tec.mx>, Juan José de Jesús Hernández Beltrán <A00836747@tec.mx>, Mateo Zepeda Pérez <A01722398@tec.mx>, Kevin Jesús Martínez Trinidad <A00834493@tec.mx>
+License-Expression: GPL-3.0-or-later
+Project-URL: Source Code, https://github.com/JuanjoBelt/MA2006B-CryptographyForHumanRights/
+Keywords: digital signature,cryptography,power apps,azure
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Topic :: Office/Business
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: azure-functions
+Requires-Dist: cryptography
+Requires-Dist: pyhanko[image-support,opentype]
+Requires-Dist: azure-storage-blob
+Requires-Dist: requests
+Requires-Dist: qrcode
+Requires-Dist: pyodbc
+Requires-Dist: PyPDF2
+Requires-Dist: python-dotenv
+
+<p align = "center">
+    <img src="./Docs/Media/morfosis-logo-white.png">
+<p>
+
+## Introducción
+
+<p align = "justify"> Morfosis es una plataforma para la gestión segura de documentos de la organización a través de firmas digitales y otras herramientas criptográficas. Se ejecuta principalmmente a través de Microsoft Power Apps, apoyada de otras herramientas como Azure SQL, Azure Functions, Blob Storage y Power Automate. </p>
+
+## Índice
+
+- [Paquete de Power Apps](<Source/Power App Source>)
+- [Azure Functions](<Source/Azure Functions>)
+- [Códigos para Manipular Digitales](<Source/Firmas Digitales>)
+
+## Anexos
+
+- [Identidad de marca en Canva](https://www.canva.com/design/DAGl3v2xfwI/h7wrStEaMG3fJL4RF-ca6g/edit?utm_content=DAGl3v2xfwI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+- [Presentación final de Morfosis](<Docs/Morfosis Presentación Final.pdf>)
+
+## Créditos
+
+<p align = "justify"> Desarrollada por Kevin Martínez, Mateo Zepeda, Raúl Correa, Julio Jaramillo y Juan José H. Beltrán en el Instituto Tecnológico y de Estudios Superiores de Monterrey. Uso de Álgebras Modernas para Criptografía y Seguridad.</p>

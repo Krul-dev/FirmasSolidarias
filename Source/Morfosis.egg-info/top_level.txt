@@ -1,0 +1,3 @@
+azure_functions
+firmas_digitales
+power_app_source

@@ -1,0 +1,23 @@
+README.md
+pyproject.toml
+Source/Morfosis.egg-info/PKG-INFO
+Source/Morfosis.egg-info/SOURCES.txt
+Source/Morfosis.egg-info/dependency_links.txt
+Source/Morfosis.egg-info/entry_points.txt
+Source/Morfosis.egg-info/requires.txt
+Source/Morfosis.egg-info/top_level.txt
+Source/azure_functions/Key Generator/function_app.py
+Source/azure_functions/Key Generator/issueUser.py
+Source/azure_functions/Sign Documents/function_app.py
+Source/azure_functions/Sign Documents/managePDF.py
+Source/azure_functions/Sign Documents/signPDF.py
+Source/azure_functions/Sign Documents/sqlQuery.py
+Source/azure_functions/Sign Documents/verifyPDF.py
+Source/firmas_digitales/__init__.py
+Source/firmas_digitales/utils/__init__.py
+Source/firmas_digitales/utils/ca_init.py
+Source/firmas_digitales/utils/issue_user.py
+Source/firmas_digitales/utils/revoke_user.py
+Source/firmas_digitales/utils/sign.py
+Source/firmas_digitales/utils/signPDF.py
+Source/firmas_digitales/utils/verify.py

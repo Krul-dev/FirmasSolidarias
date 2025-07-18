@@ -1,0 +1,2 @@
+[console_scripts]
+ca_init = firmas_digitales.utils.ca_init:main
