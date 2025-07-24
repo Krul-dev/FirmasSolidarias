@@ -6,13 +6,16 @@ Source/Morfosis.egg-info/dependency_links.txt
 Source/Morfosis.egg-info/entry_points.txt
 Source/Morfosis.egg-info/requires.txt
 Source/Morfosis.egg-info/top_level.txt
-Source/azure_functions/Key Generator/function_app.py
-Source/azure_functions/Key Generator/issueUser.py
-Source/azure_functions/Sign Documents/function_app.py
-Source/azure_functions/Sign Documents/managePDF.py
-Source/azure_functions/Sign Documents/signPDF.py
-Source/azure_functions/Sign Documents/sqlQuery.py
-Source/azure_functions/Sign Documents/verifyPDF.py
+Source/azure_functions/__init__.py
+Source/azure_functions/key_generator/__init__.py
+Source/azure_functions/key_generator/function_app.py
+Source/azure_functions/key_generator/issueUser.py
+Source/azure_functions/sign_documents/__init__.py
+Source/azure_functions/sign_documents/function_app.py
+Source/azure_functions/sign_documents/managePDF.py
+Source/azure_functions/sign_documents/signPDF.py
+Source/azure_functions/sign_documents/sqlQuery.py
+Source/azure_functions/sign_documents/verifyPDF.py
 Source/firmas_digitales/__init__.py
 Source/firmas_digitales/utils/__init__.py
 Source/firmas_digitales/utils/ca_init.py
